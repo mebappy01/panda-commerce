@@ -75,6 +75,7 @@ nav {
   margin-top: 63px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .banner img {
@@ -116,4 +117,177 @@ nav {
   );
   padding: 16px 28px;
   margin: 8px 0;
+}
+
+/* Categories Style */
+.categories {
+  margin-top: 64px;
+}
+
+.categories_items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.category_item_watch {
+  width: 359px;
+  height: 120px;
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+  border-radius: 16px;
+  padding: 15px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category_item_watch h4 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.category_item_watch img {
+  width: 68.21px;
+  height: 90px;
+}
+
+.category_item_bag {
+  width: 359px;
+  height: 120px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+  border-radius: 16px;
+  padding: 15px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category_item_bag h4 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.category_item_bag img {
+  width: 94px;
+  height: 94px;
+}
+
+.category_item_shoes {
+  width: 359px;
+  height: 120px;
+  background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
+  border-radius: 16px;
+  padding: 15px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category_item_shoes h4 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.category_item_shoes img {
+  width: 97px;
+  height: 97px;
+}
+
+/* Shoes Style */
+.shoes {
+  margin-top: 49px;
+  background-color: #f4f4f4;
+}
+
+.shoes_content {
+  padding: 49px 0;
+}
+
+.shoes_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shoes_head h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.shoes_head a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff9d00;
+  text-decoration: none;
+}
+
+.shoes_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.shoes_item {
+  width: 360px;
+  background-color: #ffffff;
+  padding: 24px 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.shoes_item img {
+  width: 336px;
+  height: 202px;
+  margin-bottom: 22px;
+}
+
+.shoes_item h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-bottom: 16px;
+}
+
+.shoes_item p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--inter-font);
+  color: #4e4e4e;
+  margin-bottom: 16px;
+}
+
+.shoes_item span {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.shoes_item button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--inter-font);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 28px;
+  background-color: #000000;
 }
